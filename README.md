@@ -153,10 +153,40 @@ If all is good, reboot the router by going to  `System > Reboot`.
 
 ![image](https://user-images.githubusercontent.com/53142047/185214451-7a2fea45-fcf4-45b9-abae-cfee0983ba6e.png)
 
-Then Click `Perform Reboot`
+Then click `Perform Reboot`
 
 ![image](https://user-images.githubusercontent.com/53142047/185214601-a52e90bd-708e-4a2f-9a6c-8188fa7ae324.png)
 
-## Configure Wireguard
+21) When the Rasberry Pi reboots the USB interface will go down and you will have to  chose USB tethering on the phone.
 
-## Force Android USB tethering 
+In the next section we will set Android to always chose USB tethering when USB is connected so the usb0 interface comes up with having to manually set USB Tethering.
+
+But before going any further.... .take a backup.
+
+22) Go to `System > Backup/Flash Firmware.
+
+![image](https://user-images.githubusercontent.com/53142047/185215565-e149a3cd-bab6-45d1-984e-1b89c4543a44.png)
+
+From the `Flash OPerations` page. Select `Generate Archive` 
+
+![image](https://user-images.githubusercontent.com/53142047/185215965-b0521154-53f5-4629-9752-6bc3df7a0346.png)
+
+
+## Default to USB Tethering 
+Mileage might vary on this, depending on the version of Adroid you are using, but on my phone I could access the `Developer Options` and  force the phone to always use USB Tethering when a USB cable is connected.
+
+To Access the Developer Options
+1) Go to `Setting`
+
+2) Select `About Phone`
+
+3) Scroll to the bottom and tap the `Build Number` seven times.
+
+4) In Settings, search for USB and look for the `Default USB Configuration` option. 
+
+5) Select the  Default USB Configuration to be  USB Tethering.
+
+This should have forced the phone to always chose USB Tethering.
+
+At this point in the configuration you  should have a OpenWrt Router which will work via the Ethernet interface of the  Raspberry Pi.  To  have more than one wire device  connected to the OpenWrt router, connect a switch to the Raspberry Pi ethernet interface
+## Configure Wireguard
