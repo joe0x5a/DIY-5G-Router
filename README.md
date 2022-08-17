@@ -47,10 +47,15 @@ I used the Raspberry Pi Imager to image the Micro SD card
 ![image](https://user-images.githubusercontent.com/53142047/185113760-b779b663-fd75-41b5-a802-87959fbbeab4.png)
 
 
-
-
-
 ## Configure OpenWrt
+1) Boot the Raspberry Pi and connect an ethernet cable from your computer to the Raspberry Pi.
+2) The default IP address of OpenWrt is `192.168.1.1/24`
+3) Go to your Ethernet adapter settings on your computer and configure a Static IP address of 192.168.1.2/24.
+
+
+
+
+
 
 ## Configure Wireguard
 
