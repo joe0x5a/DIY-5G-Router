@@ -188,5 +188,8 @@ To Access the Developer Options
 
 This should have forced the phone to always chose USB Tethering.
 
-At this point in the configuration you  should have a OpenWrt Router which will work via the Ethernet interface of the  Raspberry Pi.  To  have more than one wire device  connected to the OpenWrt router, connect a switch to the Raspberry Pi ethernet interface
+At this point in the configuration you  should have an OpenWrt router which will work via the Ethernet interface of the  Raspberry Pi.  To  have more than one wire device  connected to the OpenWrt router, connect a switch to the Raspberry Pi ethernet interface.
+
+## Configure WiFi Access Point
+
 ## Configure Wireguard
