@@ -1,6 +1,6 @@
 # DIY 5G Router Build
 For a while I've been looking for a mobile router solution to replace my TP-Link M7650 MiFi. The MiFi has been great, but its:
-- only 4g and I didnt acquire 5g capabilities with my covid jabs.
+- only 4g a.
 - only WiFi connectivity, no wired capability
 
 I looked at what I could buy, but were either:
@@ -8,7 +8,7 @@ I looked at what I could buy, but were either:
 - only capable of 4G or didnt have Gigabit ethernet.
 
 Some of the routers I looked at were based on OpenWrt. 
-I have more Raspberry Pis than fingers and only 3 are in use, so it would nice to put another in to acive service, and not have to hide it from the wife :)
+I have more Raspberry Pis than fingers and only 3 are actually being used
 So I thought, could I build my own 5g router?
 *Spoiler:  I wrote this while connected to  my DIY router. :)
 
